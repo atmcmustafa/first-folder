@@ -1,0 +1,57 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+   float sayi1,sayi2;
+   float toplama,cikarma,carpma,bolme;
+
+
+   int islem;
+
+   cout<<"Lutfen yapmak istediginiz islemi seciniz"<<endl;
+
+   cout<<"1-Toplama"<<endl;
+   cout<<"2-Cikarma"<<endl;
+   cout<<"3-Carpma"<<endl;
+   cout<<"4-Bolme"<<endl;
+
+
+   cin>>islem;
+
+   cout<<"Lutfen islem yapilacak iki sayiyi giriniz: "<<endl;
+   cin>>sayi1;
+   cin>>sayi2;
+
+   if(islem==1){
+        toplama=sayi1+sayi2;
+    cout<<"Sonuc: "<<toplama;
+   }
+   else if(islem==2){
+       cikarma=sayi1-sayi2;
+    cout<<"Sonuc: "<<cikarma;
+   }
+   else if(islem==3){
+       carpma=sayi1*sayi2;
+    cout<<"Sonuc: "<<carpma;
+   }
+   else if(islem==4){
+        bolme=sayi1/sayi2;
+    cout<<"Sonuc: "<<bolme;
+   }
+   else{
+    cout<<"Lutfen gecerli bir islem seciniz!!";
+   }
+
+
+
+
+
+
+
+
+
+
+}
